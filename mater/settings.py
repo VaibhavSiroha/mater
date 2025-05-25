@@ -29,8 +29,13 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
+#'website.apps.mainconfig'
 
+AUTH_USER_MODEL = 'accounts.Users'
 INSTALLED_APPS = [
+
+    'accounts',
+    'website',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
