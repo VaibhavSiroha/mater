@@ -12,4 +12,3 @@ class CustomUserAdmin(UserAdmin):
     )
 
 admin.site.register(Users, CustomUserAdmin)
-
